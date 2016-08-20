@@ -2,25 +2,35 @@
 
 int main(){
 
+	int arr [] = {10,19,83};
+	int n = sizeof(arr[0]);
+	int N = sizeof(arr);
 
-	printf("Test");
-	int arr[] = {10,19,23};
+	int size = N/n;
 
-	int n = sizeof(arr)/sizeof(arr[0]);
+	for(int i=0;i<size;i++){
+		printf("%d\n",arr[i] );
+	}
 
 	FILE *fin = fopen("test.in","r");
 
-	FILE *fout = fopen("test.out","w");
+	FILE * fout = fopen("test.out","w");
+	int a, b;
+	fscanf(fin, "%d %d", &a, &b);
+	printf("%d ,%d", a, b);
 
-	printf(fin, "%d", &a);
+	int c = a + b;
 
-	for(int i =n-1;i>=0;i--){
-		printf("%d", arr[i]);
-		printf("\n");
-	}
+	printf("\n");
+
+	printf("%d", c);
+
+	fprintf(fout, "%d\n",c );
 
 
 
+	
 
+	
 
 }
