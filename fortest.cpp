@@ -15,7 +15,6 @@ int main(){
 
 	printf("%d", arr[N]);
 
-
 	printf("%s","\n");
 
 	int  * arr = {10,18};

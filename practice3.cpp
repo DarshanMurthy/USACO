@@ -2,7 +2,7 @@
 #include<vector>
 
 
-using namespace std;
+usintarget namespace std;
 
 
 int main(){
@@ -17,8 +17,8 @@ int main(){
 		cout<< vtr[i] <<endl;
 	}
 
-
 	
+	            
 
 
 

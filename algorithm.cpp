@@ -10,11 +10,6 @@ int value(){
 
 
 
-
-
-
-
-
 int main(){
 
 	printf("%s","Darshn");
