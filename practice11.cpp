@@ -1,35 +1,54 @@
 #include<iostream>
-#include<vector>
 
 using namespace std;
 
-class Node{
+struct node{
 	int data;
-public:
-	Node(int data){
-		data = data;
-	}
-	void display(){
-		cout<<"Darshan" <<endl;
-	}
-
-};
-
-struct idea{
-	int data;
-	struct node * llink;
+	struct node * llink ;
 	struct node * rlink;
+
 };
 
+class student{
+	int node;
+	int arr[100];
+	struct node{
+		int data;
+		struct node * llink;
+		struct node * rlink;
+
+	};
+
+public:
+	student(int node){
+		node = node;
+	}
+	void note(char * name){
+		cout<< "node" <<endl;
+		cout << name <<endl;
+
+	}
 
 
 
+	void testdata(){
+
+	}
+
+};
 
 int main(){
-	Node node(10);
-	node.display();
-	vector<string> vtr(100);
 
-	
+
+student Student(1);
+char * name = "darsahn";
+Student.note(name);
+
+
+
+
+
+
+
 	return 0;
 }
