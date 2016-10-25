@@ -19,3 +19,5 @@ FILE * fin = fopen("test.in","r")
 FILE * fout = fopen("test.out","w")
 
 
+
+

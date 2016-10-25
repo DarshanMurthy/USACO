@@ -1,22 +1,22 @@
 #include<iostream>
 #include<vector>
 
+struct Node{
+	int data;
+	struct Node * llink;
+	struct Node * rrlink;
+};
+
 using namespace std;
 
-
 int main(){
+	vector<int> vtr(100);
+	cout << vtr.size();
 
-	vector<string> vtr(10);
-	vtr[1] = "darshan";
+	Node * node;
+	node-> data =100;
 
-	cout << vtr[1] <<endl;
-
-	for(int i=0;i<3;i++){
-		vtr[i];
-	}
-
-
-
+	cout<< node-> data;
 
 
 	return 0;
