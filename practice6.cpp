@@ -1,39 +1,21 @@
 #include<iostream>
-#include<stdlib.h>
-
 
 struct Node{
 	int data;
 	struct Node * llink;
-	struct Node * rlink;
+	struct Node * rrlink;
 };
 
 using namespace std;
 
-Node * creator(){
-
-	Node * p = (Node * )malloc(sizeof(Node));
-
-	return p;
-}
-
-
-
 
 int main(){
-	Node * ptr= creator();
-	ptr-> data =10;
-	cout<< ptr-> data;
-	cout<<"\n";
+	int v [] ={0,19,2,3,4,5};
+	for(auto x:v)
+		cout<< x << '\n';
 
-
-	Node * ptr1 =  creator();
-	ptr1->data =100;
-	cout<< ptr1->data;
 
 
 
 	return 0;
-
-
 }
