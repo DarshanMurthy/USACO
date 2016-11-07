@@ -1,18 +1,10 @@
 #include<iostream>
+#include<stdlib.h>
 #include<vector>
-
-struct Node{
-	int data;
-	struct Node * llink;
-	struct Node * rlink;
-};
-
+#include<stack>
 int main(){
-	struct Node * ptr;
-	ptr->data =100;
-	cout<< ptr->data;
+	vector<int> vtr(100);
 
-
-
-	return 0;
 }
+
+
