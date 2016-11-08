@@ -11,24 +11,12 @@ struct Node{
 
 using namespace std;
 
-Node * creator(){
-	Node * ptr = (Node *) malloc(sizeof(Node));
-	return ptr;
-
-}
-
-void display(){
-
-}
-
 
 
 int main(){
 	struct Node * node;
-	node->data;
-	Node * ptr =creator();
-	ptr->data=100;
-	
+	node->data=100;
+
 
 
 

@@ -3,16 +3,35 @@
 #include<vector>
 #include<stack>
 
+struct Node{
+	int data;
+	struct Node * llink;
+	struct Node * rlink;
+
+};
+
 using namespace std;
 
+
+
+
+
 int main(){
+	Node * node;
+
+	vector<int> v(10);
+	vector< vector<int> > CD;
 	
-	cout<< "Test";
+	node -> data =100;
+	
 
+	
+	
+	
 
-
-
-	return 0;
+	
+	
+	
 }
 
 
