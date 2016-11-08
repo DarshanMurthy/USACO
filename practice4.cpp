@@ -1,24 +1,41 @@
 #include<iostream>
-
+#include<vector>
 #include<stdlib.h>
 
-struct Node{
-	int data;
-	struct Node * llink;
-	struct Node * rlink;
-
-};
 
 using namespace std;
 
+struct Node{
+	int data;
+
+};
 
 
 int main(){
-	struct Node * node;
-	node->data=100;
+	Node * node;
+	vector<int> vtr(100);
+	vector< vector < int > > vt;
+
+	for(int i=0;i<10 ;i++){
+		vtr.push_back(i);
+	}
+	cout<< vtr.size()<<endl;
 
 
 
 
 
+	Node * ptr = (Node *) malloc(sizeof(Node));
+	ptr->data=100;
+	cout<< ptr->data; 
+
+
+
+
+
+
+
+
+
+	return 0;
 }
